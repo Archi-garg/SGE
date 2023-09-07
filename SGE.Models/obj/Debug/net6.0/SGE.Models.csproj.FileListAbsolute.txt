@@ -1,0 +1,12 @@
+D:\core\SGE.Api\SGE.Models\bin\Debug\net6.0\SGE.Models.deps.json
+D:\core\SGE.Api\SGE.Models\bin\Debug\net6.0\SGE.Models.dll
+D:\core\SGE.Api\SGE.Models\bin\Debug\net6.0\SGE.Models.pdb
+D:\core\SGE.Api\SGE.Models\obj\Debug\net6.0\SGE.Models.csproj.AssemblyReference.cache
+D:\core\SGE.Api\SGE.Models\obj\Debug\net6.0\SGE.Models.GeneratedMSBuildEditorConfig.editorconfig
+D:\core\SGE.Api\SGE.Models\obj\Debug\net6.0\SGE.Models.AssemblyInfoInputs.cache
+D:\core\SGE.Api\SGE.Models\obj\Debug\net6.0\SGE.Models.AssemblyInfo.cs
+D:\core\SGE.Api\SGE.Models\obj\Debug\net6.0\SGE.Models.csproj.CoreCompileInputs.cache
+D:\core\SGE.Api\SGE.Models\obj\Debug\net6.0\SGE.Models.dll
+D:\core\SGE.Api\SGE.Models\obj\Debug\net6.0\refint\SGE.Models.dll
+D:\core\SGE.Api\SGE.Models\obj\Debug\net6.0\SGE.Models.pdb
+D:\core\SGE.Api\SGE.Models\obj\Debug\net6.0\ref\SGE.Models.dll

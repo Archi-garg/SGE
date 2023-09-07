@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\core\\SGE.Api\\SGE.Api\\wwwroot\\Image\\download.jpg",
+      "PackagePath": "staticwebassets\\Image\\download.jpg"
+    },
+    {
+      "Id": "D:\\core\\SGE.Api\\SGE.Api\\wwwroot\\ProfilePic\\download.jpg",
+      "PackagePath": "staticwebassets\\ProfilePic\\download.jpg"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.SGE.Api.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.SGE.Api.props",
+      "PackagePath": "build\\SGE.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.SGE.Api.props",
+      "PackagePath": "buildMultiTargeting\\SGE.Api.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.SGE.Api.props",
+      "PackagePath": "buildTransitive\\SGE.Api.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

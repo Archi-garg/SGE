@@ -1,0 +1,17 @@
+D:\core\SGE.Api\SGE.Services\bin\Debug\net6.0\SGE.Services.deps.json
+D:\core\SGE.Api\SGE.Services\bin\Debug\net6.0\SGE.Services.dll
+D:\core\SGE.Api\SGE.Services\bin\Debug\net6.0\SGE.Services.pdb
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\SGE.Services.csproj.AssemblyReference.cache
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\SGE.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\SGE.Services.AssemblyInfoInputs.cache
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\SGE.Services.AssemblyInfo.cs
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\SGE.Services.csproj.CoreCompileInputs.cache
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\SGE.Services.dll
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\refint\SGE.Services.dll
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\SGE.Services.pdb
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\ref\SGE.Services.dll
+D:\core\SGE.Api\SGE.Services\bin\Debug\net6.0\SGE.Data.dll
+D:\core\SGE.Api\SGE.Services\bin\Debug\net6.0\SGE.Models.dll
+D:\core\SGE.Api\SGE.Services\bin\Debug\net6.0\SGE.Data.pdb
+D:\core\SGE.Api\SGE.Services\bin\Debug\net6.0\SGE.Models.pdb
+D:\core\SGE.Api\SGE.Services\obj\Debug\net6.0\SGE.Services.csproj.CopyComplete

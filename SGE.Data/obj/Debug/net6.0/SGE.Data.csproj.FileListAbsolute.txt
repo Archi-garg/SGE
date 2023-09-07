@@ -1,0 +1,17 @@
+D:\core\SGE.Api\SGE.Data\bin\Debug\net6.0\SGE.Data.deps.json
+D:\core\SGE.Api\SGE.Data\bin\Debug\net6.0\SGE.Data.runtimeconfig.json
+D:\core\SGE.Api\SGE.Data\bin\Debug\net6.0\SGE.Data.dll
+D:\core\SGE.Api\SGE.Data\bin\Debug\net6.0\SGE.Data.pdb
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\SGE.Data.csproj.AssemblyReference.cache
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\SGE.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\SGE.Data.AssemblyInfoInputs.cache
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\SGE.Data.AssemblyInfo.cs
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\SGE.Data.csproj.CoreCompileInputs.cache
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\SGE.Data.dll
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\refint\SGE.Data.dll
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\SGE.Data.pdb
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\SGE.Data.genruntimeconfig.cache
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\ref\SGE.Data.dll
+D:\core\SGE.Api\SGE.Data\bin\Debug\net6.0\SGE.Models.dll
+D:\core\SGE.Api\SGE.Data\bin\Debug\net6.0\SGE.Models.pdb
+D:\core\SGE.Api\SGE.Data\obj\Debug\net6.0\SGE.Data.csproj.CopyComplete

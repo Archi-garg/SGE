@@ -1,0 +1,82 @@
+<div class="test">
+  <div class="container account">
+    <div class="message signup">
+      <div class="btn-wrapper">
+        <button class="button" id="signup" (click)="signup()">Sign Up</button>
+        <button class="button" id="login" (click)="login()"> Login</button>
+      </div>
+    </div>
+    <div class="form form--signup">
+      <div class="form--heading">Welcome! Sign Up</div>
+      <form autocomplete="off" [formGroup]="userData" (ngSubmit)="signupUser(userData.value)">
+
+        <input type="text" [class.is-invalid]="userName.invalid && userName.touched" formControlName="UserName" placeholder="Name">
+        <small class="text-danger" [class.d-none]="userName.valid || userName.untouched">username is required</small>
+        
+        <input type="email" [class.is-invalid]="email.invalid && email.touched" formControlName="Email" placeholder="Email">
+        <div *ngIf="email.invalid && email.touched" class="showError">
+            <small *ngIf="email.errors?.['required']" class="text-danger">email is required</small>
+            <small *ngIf="email.errors?.['email']" class="text-danger">enter valid email</small>
+        </div>
+
+        <input type="password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&].{4,}$" [class.is-invalid]="password.invalid && password.touched" formControlName="Password"placeholder="Password">
+        <div *ngIf="password.invalid && password.touched" class="showError">
+            <small *ngIf="password.errors?.['required']" class="text-danger">password is required</small>
+            <small *ngIf="password.errors?.['pattern']" class="text-danger">password must be strong</small>
+        </div>
+
+        <input type="password" [class.is-invalid]="userData.errors?.['misMatch']" formControlName="ConfirmPassword" placeholder="Confirm Password">
+        <small *ngIf="userData.errors?.['misMatch']" class="text-danger">password must be same </small>
+
+        <input type="text" [class.is-invalid]="phoneNo.invalid && phoneNo.touched" formControlName="PhoneNumber" placeholder="enter phone no.">
+        <small class="text-danger" [class.d-none]="phoneNo.valid || phoneNo.untouched">phone number is required</small>
+
+        <!-- <label for="image" class="profilePic">select profile pic</label>
+
+        <i class="fa-regular fa-user fa-2xs"></i> <input formControlName="ProfilePic" class="ImageFile" type="file" id="image" (change)="onFileSelected($event)" accept="image/*">         
+        <p-dialog header="Header" [(visible)]="visible" [style]="{width: '50vw'}">
+            <div>
+                <div style="float: left; width: 50%;">
+                    <image-cropper
+                        [imageChangedEvent]="imageChangedEvent"
+                        [maintainAspectRatio]="true"
+                        [aspectRatio]="4 / 4"
+                        [resizeToWidth]="150"
+                        format="png"
+                        (imageCropped)="imageCropped($event)"
+                        (imageLoaded)="imageLoaded()"
+                        (cropperReady)="cropperReady()"
+                        (loadImageFailed)="loadImageFailed()"
+                    ></image-cropper>
+                </div>
+                      
+                <div>
+                    <img [src]="croppedImage" style="filter: opacity(35%);"/>
+                </div>
+            </div>
+        </p-dialog>
+        <img [src]="croppedImage" style="filter: opacity(35%);"/> -->
+        <input [disabled]="userData.invalid" type="submit" class="button">
+      </form>
+    </div>
+
+
+    <div class="form form--login">
+      <div class="form--heading">Welcome back! </div>
+      <form autocomplete="off" [formGroup]="loginForm" (ngSubmit)="loginUser(loginForm.value)">
+        <input type="text" [class.is-invalid]="loginEmail.invalid && loginEmail.touched" formControlName="Email" placeholder="Email">
+        <div *ngIf="loginEmail.invalid && loginEmail.touched" class="showError">
+          <small *ngIf="loginEmail.errors?.['required']" class="text-danger">email is required</small>
+          <small *ngIf="loginEmail.errors?.['email']" class="text-danger">enter valid email</small>
+      </div>
+        <input type="password" [class.is-invalid]="loginPassword.invalid && loginPassword.touched" formControlName="Password" placeholder="Password">
+        <div *ngIf="loginPassword.invalid && loginPassword.touched" class="showError">
+          <small *ngIf="loginPassword.errors?.['required']" class="text-danger">password is required</small>
+      </div>
+        <button [disabled]="loginForm.invalid" class="button" type="submit">Login</button>
+      </form>
+    </div>
+  </div>
+</div>
+
+

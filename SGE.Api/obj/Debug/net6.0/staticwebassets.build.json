@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "JedxVcQAWbVV/yhoHgTzSGaID4fU4e3xzg5bRo/KU1o=",
+  "Source": "SGE.Api",
+  "BasePath": "_content/SGE.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "SGE.Api\\wwwroot",
+      "Source": "SGE.Api",
+      "ContentRoot": "D:\\core\\SGE.Api\\SGE.Api\\wwwroot\\",
+      "BasePath": "_content/SGE.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\core\\SGE.Api\\SGE.Api\\wwwroot\\Image\\download.jpg",
+      "SourceId": "SGE.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\core\\SGE.Api\\SGE.Api\\wwwroot\\",
+      "BasePath": "_content/SGE.Api",
+      "RelativePath": "Image/download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Image\\download.jpg"
+    },
+    {
+      "Identity": "D:\\core\\SGE.Api\\SGE.Api\\wwwroot\\ProfilePic\\download.jpg",
+      "SourceId": "SGE.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\core\\SGE.Api\\SGE.Api\\wwwroot\\",
+      "BasePath": "_content/SGE.Api",
+      "RelativePath": "ProfilePic/download.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\ProfilePic\\download.jpg"
+    }
+  ]
+}
